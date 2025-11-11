@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="container-news">
+      <h1>Dades informatives</h1>
+      <div id="noticia-portada">Dades</div>
+
+      <h2>Noticia 1</h2>
+      <p class="noticia">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+      <h2>Noticia 2</h2>
+      <p class="noticia">Contingut noticia 2</p>
+      <h2>Noticia 3</h2>
+      <p class="noticia">Contingut noticia 3</p>
+
+      <input
+        type="text"
+        id="infoId"
+        class="camp-cerca"
+        name="infoName"
+        value=""
+        maxlength="30"
+      />
+      <input
+        id="btn-search"
+        type="button"
+        name="cerca"
+        value="Cerca més notícies"
+      />
+    </div>
+
+    <div>
+      <input type="button" id="btn-mostra" name="mostra" value="Mostra" />
+      <input type="button" id="btn-amaga" name="amaga" value="amaga" />
+    </div>
+  </body>
+  <script>
+    let btnShow = getElementById("btn-mostra");
+    let btnHidde = getElementById("btn-amaga");
+    //let contenedorNoticias = getElementsByClassName("noticia");
+    let contenedorNoticias = document.querySelector("#noticia");
+    btnShow.addEventListener(click, function () {
+      contenedorNoticias.style.display = "";
+    });
+    btnHidde.addEventListener(click, function () {
+      contenedorNoticias.style.display = "none";
+    });
+  </script>
+</html>

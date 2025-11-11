@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+tr td:nth-child(odd) {
+  background-color: #ffc0cb;
+}
+
+tr td:first-child {
+  width: 300 px;
+}
+.Bold {
+  font-weight: bold;
+  color: #333;
+}
+
+table {
+  border-collapse: collapse;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.calendari1 td:first-child {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px;
+}
+
+.calendari2 td:first-child {
+  font-size: 1.2em;
+  text-align: center;
+  padding: 15px;
+}

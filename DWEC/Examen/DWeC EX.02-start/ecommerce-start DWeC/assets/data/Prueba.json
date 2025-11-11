@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "nom": "Home Air Max 90",
+    "imatge": "clothesnou1.jpg",
+    "descripcio": "Classic Home Air Max 90 shoes with a comfortable fit.",
+    "preu": 120.0,
+    "descompte": 0,
+    "categoria": "Home",
+    "puntuacio": 1
+  },
+  {
+    "id": 2,
+    "nom": "Dona Ultraboost",
+    "imatge": "clothesnou2.jpg",
+    "descripcio": "High-performance running shoes with responsive cushioning.",
+    "preu": 180.0,
+    "descompte": 0.25,
+    "categoria": "Dona",
+    "puntuacio": 2
+  },
+  {
+    "id": 3,
+    "nom": "Accesori Suede Classic",
+    "imatge": "clothesnou3.jpg",
+    "descripcio": "Iconic Accesori Suede Classic sneakers with a vintage look.",
+    "preu": 70.0,
+    "descompte": 0,
+    "categoria": "Accesori",
+    "puntuacio": 1
+  },
+  {
+    "id": 4,
+    "nom": "Accesori Nano X1",
+    "imatge": "clothesnou4.jpg",
+    "descripcio": "Versatile training shoes designed for various workouts.",
+    "preu": 130.0,
+    "descompte": 0.5,
+    "categoria": "Accesori",
+    "puntuacio": 1
+  },
+  {
+    "id": 5,
+    "nom": "Home Metcon 6",
+    "imatge": "jacketnou1.jpg",
+    "descripcio": "Durable training shoes for high-intensity workouts.",
+    "preu": 140.0,
+    "descompte": 0.5,
+    "puntuacio": 0
+  },
+  {
+    "id": 6,
+    "nom": "Dona NMD_R1",
+    "imatge": "jacketnou2.jpg",
+    "descripcio": "Stylish and comfortable shoes for everyday wear.",
+    "preu": 150.0,
+    "descompte": 0.1,
+    "puntuacio": 3
+  },
+  {
+    "id": 7,
+    "nom": "Accesori RS-X",
+    "imatge": "jacketnou3.jpg",
+    "descripcio": "Futuristic design with a bold look and comfortable fit.",
+    "preu": 110.0,
+    "descompte": 0.5,
+    "puntuacio": 4
+  },
+  {
+    "id": 8,
+    "nom": "Accesori Classic Leather",
+    "imatge": "jacketnou4.jpg",
+    "descripcio": "Timeless Accesori Classic Leather shoes with a retro style.",
+    "preu": 75.0,
+    "descompte": 0,
+    "categoria": "Accesori",
+    "puntuacio": 5
+  },
+  {
+    "id": 9,
+    "nom": "Home Blazer Mid '77",
+    "imatge": "jacketnou5.jpg",
+    "descripcio": "Vintage-inspired Home Blazer with a sleek design.",
+    "preu": 100.0,
+    "descompte": 0.3,
+    "categoria": "Home",
+    "puntuacio": 2
+  },
+  {
+    "id": 10,
+    "nom": "Dona Gazelle",
+    "imatge": "jacketnou6.jpg",
+    "descripcio": "Classic Dona Gazelle shoes with a minimalist look.",
+    "preu": 90.0,
+    "descompte": 0.3,
+    "categoria": "Dona",
+    "puntuacio": 3
+  },
+  {
+    "id": 11,
+    "nom": "Accesori Future Rider",
+    "imatge": "shoenou1.jpg",
+    "descripcio": "Retro-inspired Accesori Future Rider with a comfortable feel.",
+    "preu": 80.0,
+    "descompte": 0.5,
+    "categoria": "Accesori",
+    "puntuacio": 2
+  },
+  {
+    "id": 12,
+    "nom": "Accesori Zig Kinetica",
+    "imatge": "shoenou2.jpg",
+    "descripcio": "Innovative design with Zig technology for enhanced comfort.",
+    "preu": 140.0,
+    "descompte": 0.1,
+    "categoria": "Accesori",
+    "puntuacio": 3
+  }
+]
