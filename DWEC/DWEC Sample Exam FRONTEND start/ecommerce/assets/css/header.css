@@ -1,4 +1,5 @@
-header{    
+header{
+    
     position: sticky;
     top:0;
     left:0;
@@ -13,13 +14,6 @@ header .top-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-header h1{
-    font-family: 'Monoton';
-    font-size: 2rem;
-}
-header .logo-container{
-    width:20%;
 }
 header .logo{
     width: 50%;
@@ -55,27 +49,7 @@ header .search-container .search-btn {
 header .icons-container{
     text-align: right;
     width: 20%;
-    margin-left: 150px;
 }
-
-.icons-container {
-    display: flex;
-    gap: 10px;
-}
-.icon-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.icon-button svg {
-    width: 24px;
-    height: 24px;
-}
-        
 header .fa-user, .fa-heart, .fa-bag-shopping{
     font-size: 1.4rem;
     margin-right: 0.8rem;
@@ -95,52 +69,4 @@ header .fa-user, .fa-heart, .fa-bag-shopping{
     font-weight:600;
     text-transform: uppercase;
     font-size: 1rem;
-}
-.main-nav a:hover{
-    color:orange
-}
-
-.main-nav .menu-men {
-    display: inline-block;
-    position: relative;
-}
-.submenu{
-    display: none;
-    position: absolute;
-    top:1.5rem;
-    left: -1rem;
-    z-index: 10;
-    background-color: white;
-    padding: 1rem;
-}
-.menu-men:hover .submenu{
-    display: flex;
-    border: 1px solid #ccc;
-    border-radius: 1rem;   
-}
-.submenu a{
-    display: block;
-    text-decoration: none;
-    padding: 5px 0;
-    font-size: 0.9rem;
-    font-weight: normal;
-}
-.submenu a:hover{
-    text-decoration:underline;
-}
-.submenu img{
-    width: 100%;
-    border-radius: 1rem;
-}
-.photo-submenu{
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-input, select{
-    padding: 0.4rem;
-    font-size: 1.0rem;
-    min-width: 200px;
 }
