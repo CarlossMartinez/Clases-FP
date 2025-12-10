@@ -1,0 +1,92 @@
+[
+    {
+        "id":1,
+        "name": "Jaqueta de pell",
+        "description": "Jaqueta de pell molona",        
+        "image": "jacket-1.jpg",
+        "price": 59,
+        "stars": 3,
+        "discount": 30
+    },
+    {
+        "id":2,
+        "name": "clothes-1",
+        "description": "clothes-1",        
+        "image": "clothes-1.jpg",
+        "price": 29,
+        "stars": 3,
+        "discount": 40
+    },
+    {
+        "id":3,
+        "name": "jewellery-3",
+        "description": "jewellery-3",        
+        "image": "jewellery-3.jpg",
+        "price": 59,
+        "stars": 3,
+        "discount": 30
+    },
+    {
+        "id":4,
+        "name": "jewellery-2",
+        "description": "jewellery-2",        
+        "image": "jewellery-2.jpg",
+        "price": 39,
+        "stars": 3,
+        "discount": 10
+    },
+    {
+        "id":5,
+        "name": "jewellery-1",
+        "description": "jewellery-1",        
+        "image": "jewellery-1.jpg",
+        "price": 20,
+        "stars": 1,
+        "discount": 80
+    },
+    {
+        "id":6,
+        "name": "Jjacket-2l",
+        "description": "Jjacket-2olona",        
+        "image": "jacket-2.jpg",
+        "price": 77,
+        "stars": 4,
+        "discount": 10
+    },
+    {
+        "id":7,
+        "name": "Jaqjacket-3.jpgl",
+        "description": "jacket-3.jpgna",        
+        "image": "jacket-3.jpg",
+        "price": 159,
+        "stars": 2,
+        "discount": 30
+    },
+    {
+        "id":8,
+        "name": "Jjacket-4",
+        "description": "jacket-4",        
+        "image": "jacket-4.jpg",
+        "price": 59,
+        "stars": 3,
+        "discount": 50
+    },
+    {
+        "id":9,
+        "name": "jacket-5",
+        "description": "Jajacket-5",        
+        "image": "jacket-5.jpg",
+        "price": 40,
+        "stars": 1,
+        "discount": 0
+    },
+    {
+        "id":10,
+        "name": "Jaqueta de roba",
+        "description": "Jaquet666molona",        
+        "image": "jacket-6.jpg",
+        "price": 29,
+        "stars": 5,
+        "discount": 70
+    }
+]

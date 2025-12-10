@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- NAVBAR -->
+    <header
+      class="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white"
+    >
+      <nav
+        class="max-w-6xl mx-auto flex items-center justify-between py-5 px-4"
+      >
+        <h1 class="text-xl font-bold">Digital evolution S.A</h1>
+
+        <div class="space-x-4 font-medium">
+          <a href="#inicio" class="hover:underline">Inicio</a>
+          <a href="#proyectos" class="hover:underline">Proyectos</a>
+          <a href="#contacto" class="hover:underline">Contacto</a>
+          <a href="#newsletter" class="hover:underline">Newsletter</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- INICIO -->
+    <section
+      id="inicio"
+      class="max-w-6xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-12 items-center"
+    >
+      <div>
+        <h2 class="text-4xl font-bold mb-4">Hola, soy [Tu Nombre]</h2>
+        <p class="mb-4 text-lg text-gray-700">
+          Desarrollador Frontend especializado en interfaces limpias y
+          accesibles usando HTML, CSS y Tailwind.
+        </p>
+        <p class="mb-6">
+          Aquí puedes ver mis proyectos, contactarme y suscribirte a mi
+          newsletter.
+        </p>
+
+        <a
+          href="#proyectos"
+          class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg mr-3"
+        >
+          Ver proyectos
+        </a>
+        <a href="#contacto" class="inline-block border px-4 py-2 rounded-lg">
+          Contacto
+        </a>
+      </div>
+
+      <div class="flex justify-center">
+        <div
+          class="w-64 h-64 bg-gray-200 rounded-xl flex items-center justify-center"
+        >
+          Imagen / Foto
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-4">Skills</h3>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="p-4 border rounded-lg text-center bg-white">HTML</div>
+        <div class="p-4 border rounded-lg text-center bg-white">CSS</div>
+        <div class="p-4 border rounded-lg text-center bg-white">Tailwind</div>
+        <div class="p-4 border rounded-lg text-center bg-white">
+          Responsive Design
+        </div>
+        <div class="p-4 border rounded-lg text-center bg-white">Diseño UI</div>
+        <div class="p-4 border rounded-lg text-center bg-white">
+          Accesibilidad
+        </div>
+        <div class="p-4 border rounded-lg text-center bg-white">Git</div>
+        <div class="p-4 border rounded-lg text-center bg-white">Figma</div>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="max-w-6xl mx-auto px-4 py-20">
+      <h2 class="text-3xl font-bold mb-8 text-center">Proyectos</h2>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- CARD -->
+        <article class="bg-white shadow rounded-lg p-4">
+          <div
+            class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center"
+          >
+            Imagen
+          </div>
+          <h4 class="font-semibold">Proyecto A</h4>
+          <p class="text-sm text-gray-600 mb-4">
+            Descripción breve del proyecto A.
+          </p>
+          <div class="flex gap-4 text-indigo-600 text-sm">
+            <a href="#">Ver</a>
+            <a href="#">Código</a>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded-lg p-4">
+          <div
+            class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center"
+          >
+            Imagen
+          </div>
+          <h4 class="font-semibold">Proyecto B</h4>
+          <p class="text-sm text-gray-600 mb-4">
+            Descripción breve del proyecto B.
+          </p>
+          <div class="flex gap-4 text-indigo-600 text-sm">
+            <a href="#">Ver</a>
+            <a href="#">Código</a>
+          </div>
+        </article>
+
+        <article class="bg-white shadow rounded-lg p-4">
+          <div
+            class="h-40 bg-gray-100 rounded-lg mb-4 flex items-center justify-center"
+          >
+            Imagen
+          </div>
+          <h4 class="font-semibold">Proyecto C</h4>
+          <p class="text-sm text-gray-600 mb-4">
+            Descripción breve del proyecto C.
+          </p>
+          <div class="flex gap-4 text-indigo-600 text-sm">
+            <a href="#">Ver</a>
+            <a href="#">Código</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="max-w-4xl mx-auto px-4 py-20">
+      <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+      <p class="text-gray-600 mb-8">
+        Puedes escribirme completando este formulario.
+      </p>
+
+      <form class="grid gap-6">
+        <div>
+          <label class="block text-sm mb-1">Nombre</label>
+          <input type="text" class="w-full border p-2 rounded" />
+        </div>
+
+        <div>
+          <label class="block text-sm mb-1">Email</label>
+          <input type="email" class="w-full border p-2 rounded" />
+        </div>
+
+        <div>
+          <label class="block text-sm mb-1">Mensaje</label>
+          <textarea class="w-full border p-2 rounded h-32"></textarea>
+        </div>
+
+        <button class="bg-indigo-600 text-white px-4 py-2 rounded w-fit">
+          Enviar
+        </button>
+      </form>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="max-w-4xl mx-auto px-4 py-20">
+      <h2 class="text-3xl font-bold mb-4">Newsletter mensual</h2>
+      <p class="text-gray-600 mb-6">
+        Suscríbete para recibir novedades cada mes.
+      </p>
+
+      <form class="flex flex-col sm:flex-row gap-4">
+        <input
+          type="email"
+          placeholder="tu@email.com"
+          class="flex-1 border p-2 rounded"
+        />
+        <button class="bg-indigo-600 text-white px-4 py-2 rounded">
+          Suscribirse
+        </button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t py-6 mt-12 text-center text-gray-500 text-sm">
+      © 2025 Mi Portafolio — Todos los derechos reservados
+    </footer>
+  </body>
+</html>
